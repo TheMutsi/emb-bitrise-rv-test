@@ -32,7 +32,7 @@
  
  const App: () => React$Node = () => {
    var rnVersion = "0.63.3"
-   var sdkVersion = "3.9.1"
+   var sdkVersion = "3.9.1 Android RV Custom build"
    var momentId = "RN-MOMENT-ID"
  
    initialize();

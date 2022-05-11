@@ -12,19 +12,24 @@ buildscript {
         google()
         jcenter()
         mavenCentral()
+        maven {
+            url "https://repo.embrace.io/repository/beta"
+        }
     }
     dependencies {
         classpath("com.android.tools.build:gradle:4.1.3")
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
-        classpath('io.embrace:embrace-swazzler:5.0.4')
+        classpath('io.embrace:embrace-swazzler:5.1.0-cb.rvlife-beta-1')
     }
 }
 
 allprojects {
     repositories {
-        mavenLocal()
         mavenCentral()
+        maven {
+            url "https://repo.embrace.io/repository/beta"
+        }
         maven {
             // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
             url("$rootDir/../node_modules/react-native/android")
