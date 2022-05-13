@@ -5,8 +5,8 @@ buildscript {
         buildToolsVersion = "29.0.2"
         minSdkVersion = 16
         compileSdkVersion = 31
-        targetSdkVersion = 29
-        ndkVersion = "21.4.7075529"
+        targetSdkVersion = 31
+        ndkVersion = "17.2.4988734"
     }
     repositories {
         google()
@@ -17,7 +17,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:4.1.3")
+        classpath("com.android.tools.build:gradle:3.5.4")
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
         classpath('io.embrace:embrace-swazzler:5.1.0-cb.rvlife-beta-5')
