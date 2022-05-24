@@ -25,8 +25,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import {endAppStartup} from 'react-native-embrace';
-import {initialize} from 'react-native-embrace';
+import {initialize, endAppStartup} from 'react-native-embrace';
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
