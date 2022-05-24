@@ -506,7 +506,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U6KRHM2Y66;
+				DEVELOPMENT_TEAM = L5RVT7J8CV;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = embracebitrise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -536,7 +536,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U6KRHM2Y66;
+				DEVELOPMENT_TEAM = L5RVT7J8CV;
 				INFOPLIST_FILE = embracebitrise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
