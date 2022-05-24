@@ -10,9 +10,5 @@ import App from '../App';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  const asd = (a,b)=>{return a+b}
-
-  
-  expect(asd(1,1)).toBe(2);
-
+  renderer.create(<App />);
 });
