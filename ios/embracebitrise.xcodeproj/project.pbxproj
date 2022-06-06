@@ -297,7 +297,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "EMBRACE_ID=SgNw5 EMBRACE_TOKEN=13f327e891ad45858949004eb755b9f1 \"${PODS_ROOT}/EmbraceIO/run.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/EmbraceIO/uploadsm.sh\"\nEMBRACE_ID=SgNw5 EMBRACE_TOKEN=13f327e891ad45858949004eb755b9f1 \"${PODS_ROOT}/EmbraceIO/run.sh\"\n";
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
